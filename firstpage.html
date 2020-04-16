@@ -2,18 +2,98 @@
 <html>
 <head>
 	<title>Things I've Learned</title>
+	<link rel="stylesheet" type="text/css" href="page.css">
 </head>
 <body>
 
 <h1>Login</h1>
 
-<input type="text" placeholder="username">
-<input type="password" name="password">
-<input type="color" name="color">
-<button>Submit</button>
-<input type="submit">
+<form action="https://github.com/Zhenkili" method = "GET">
+	<lable for="username">Username</lable>
+	<input id="username" name="username" type="email" placeholder="username" required>
+
+	<label> Password : <input name="password" type="password" placeholder="password" required> </label>
+
+	<input name="color" type="color" name="color">
+	<button>Submit</button>
+	<input type="submit">
+</form>
+
 
 <h1>Things I've Learned</h1>
+
+<h2>Register</h2>
+<form>
+	<div>
+		<label for="firstname">FirstName: </label>
+		<input id="firstname" name="firstname" type="Text" placeholder="John" required>
+		<label for="lastname">LastName: </label>
+		<input id="lastname" name="lastname" type="Text" placeholder="Smith" required>
+	</div>
+
+	<div>
+		<label for"sex-1">Male </label>
+		<input id="sex-1" name="sex" type="radio">
+		<label for"sex-2">Female </label>
+		<input id="sex-2" name="sex" type="radio">
+		<label for"sex-1">Other </label>
+		<input id="sex-1" name="sex" type="radio">
+	</div>
+
+	<div>
+		<label for="email">Email: </label>
+		<input id="email" name="email" type="email" placeholder="your email" required>
+		<label for="pastword">Password: </label>
+		<input id="password" name="password" type="password" patern=.{5,10} placeholder="your password" required title="5 to 10 characters">
+	</div>
+
+	<div>
+		<label for="birth">Birthday:</label>
+		<select id="birthmonth" name="birthmonth">
+			<option value="0" selected disabled>Moth</option>
+			<option value="Jan"> Jan</option>
+			<option value="Oct"> Oct</option>
+		</select>
+
+		<select id="birthday" name="birthday">
+			<option value="0" selected disabled>Day</option>
+			<option value="1">1</option>
+			<option value="24">24</option>
+		</select>
+
+		<select id="birthyear" name="birthyear">
+			<option value="0" selected disabled>Year</option>
+			<option value="1996">1996</option>
+		</select>
+	</div>
+
+	<div>
+		<label for="checkbox">I agree to the terms and conditions</label>
+		<input id="checkbox" name="checkbox" type="checkbox" checked>
+	</div>
+
+	<div>
+		<input type="submit" value="Submit">
+	</div>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h2>Internet Bastics</h2>
 	
@@ -48,8 +128,8 @@
 	</li>
 </ul>
 
-
 <h1>First Gen PokeMon Chart</h1>
+
 <table border="2">
 	<thead>
 		<tr>
