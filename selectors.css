@@ -9,6 +9,7 @@ body{
 /* Make the <h1> element #9b59b6*/
 h1{
 	color: #9b59b6;
+	font-family: 'Indie Flower', cursive;
 }
 
 /* Make all <h2> elements orange */
@@ -23,7 +24,7 @@ li{
 
 /*Change the background on every paragraph to be yellow*/
 p{
-	background: yellow;
+	font-family: 'Indie Flower', cursive;
 }
 
 /*Make all inputs have a 3px red border*/
