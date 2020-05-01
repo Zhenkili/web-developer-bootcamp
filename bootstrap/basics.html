@@ -2,18 +2,74 @@
 <html>
 <head>
 	<title>BootStrap Basics</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<style type="text/css">
-		.btn-success{
-			background: purple;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
 </head>
 <body>
-	<h1>Bootstrap basic</h1>
-	<button type="button" class="btn btn-success btn-lg">Click Me</button>
-	<a href="http://zhenqili.online" class="btn btn-primary btn-lg" role="button">My Site</a>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">Zhenqi-Li</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#">About Me</a></li>
+				<li><a href="http://ifeve.com/java-concurrency-thread-directory/">并发</a></li>
+				<li><a href="https://www.nowcoder.com/discuss/417442?type=2">面经</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+		
+	</nav>
+
+	<div class="container">
+
+		<h1>Bootstrap basic</h1>
+
+		<button type="button" class="btn btn-success btn-lg">
+			<span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> Click Me
+		</button>
+
+		<a href="http://zhenqili.online" class="btn btn-primary btn-lg" role="button">
+			<span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>My Site
+		</a>
+
+	
+		<div class="jumbotron">
+			<h1> This is the Jumbotron</h1>
+			<p>
+				asodjfoawb'pvoa as'vfm'wpov'wmv opsjf'asmklvmsa'dvm'sdpm'av skafmaspmf'vsmkd
+			</p>
+			<button class="btn btn-success btn-lg">hey there</button>
+		</div>
+
+		<form>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Password</label>
+		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputFile">File input</label>
+		    <input type="file" id="exampleInputFile">
+		    <p class="help-block">Example block-level help text here.</p>
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Check me out
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-success">Submit</button>
+		</form>
+	</div>
+
+
 
 </body>
 </html>
